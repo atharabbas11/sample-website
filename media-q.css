@@ -207,30 +207,4 @@
         margin-left: 15px;
         color: #FFFFFF;
     }
-
-/*     .box1 {
-        position: relative;
-        margin-left: 10px;
-        top: 60px;
-        height: 50px; 
-        width: 46px;
-        z-index: 2;
-    }
-    
-    .box2 {
-        position: fixed;
-        margin-left: 180px;
-        top: 100px;
-        width:100px;
-        height:100px;
-        z-index: 3;
-    }
-  
-    .box{
-        position: fixed;
-        margin-left: 300px;
-        top: 150px;
-        z-index: 5;
-    } */
-
 }
