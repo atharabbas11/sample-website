@@ -75,7 +75,7 @@
         min-width: calc(50% - 10px);
     }
 
-    .big-feature-container, #second-big-feature {
+    .big-feature-container, #second-feature {
         flex-direction: column;
         gap: 30px;
     }
