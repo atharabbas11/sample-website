@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap');
 
-/* resets */
+/* css */
 
 * {
     margin: 0;
@@ -50,8 +50,8 @@ ul {
     list-style: none;
 }
 
-/* utility classes */
 
+/* utility classes */
 .small-bold-text {
     font-size: 1rem;
     font-weight: 700;
@@ -103,15 +103,13 @@ ul {
 }
 
 .secondary-button:hover {
-    /* border-color: var(--accent-color); */
     border-color: lightgray;
     color: #fff;
     background-color: var(--accent-color);
-    /* color: var(--accent-color) !important; */
 }
 
-/* header */
 
+/* header */
 .header {
     position: static;
     width: 100%;
@@ -146,7 +144,6 @@ nav {
 .menu {
     display: flex;
     justify-content: center;
-    /* justify-content: end; */
     align-items: center;
 }
 
@@ -166,7 +163,6 @@ nav {
 
 .menu a:hover {
     opacity: 1;
-    /* color: #fff; */
     color: green;
 }
 
@@ -183,7 +179,6 @@ nav {
 }
 
 /* dropdown button */
-
 .dropdown .dropbtn {
     display: block;
     padding: 7px 15px;
@@ -207,14 +202,13 @@ nav {
     color: green;
     opacity: 1;
 }
-  
+
 /* drop down css */
 .dropdown-content {
     display: none;
     position: absolute;
     min-width: 120px;
     background-color:rgba(230, 230, 250, 0.5);
-    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
     z-index: 1;
 }
   
@@ -227,7 +221,6 @@ nav {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-    /* text-align: center; */
 }
   
 .dropdown-content a:hover {
@@ -239,10 +232,10 @@ nav {
     background-color:rgba(230, 230, 250, 0.5);
 }
 
+
 /* search-box */
 .search-box {
     display: block;
-    /* padding: 7px 15px; */
     font-size: 17px;
     font-weight: 500;
     color: white;
@@ -264,7 +257,6 @@ nav {
     height: 30px;
     font-size: 17px;
     background-color: lightgray;
-    /* border: 2px solid #000; */
     border: none;
     border-radius: 2%;
     width: 200px;
@@ -272,10 +264,7 @@ nav {
 }
 
 
-
-
 /* headers */
-
 .header-section {
     justify-content: center;
     gap: 0px;
@@ -300,7 +289,6 @@ nav {
 
 
 /* companies section */
-
 .companies-header {
     text-align: center;
     margin-block: 30px;
@@ -326,8 +314,8 @@ nav {
     filter: grayscale(100%);
 }
 
-/* feature section */
 
+/* feature section */
 .feature-section {
     padding: 70px var(--padding-inline-section) 0;
 }
@@ -356,7 +344,6 @@ nav {
 
 
 /* footer */
-
 footer {
     margin: 40px 0px 0px 0px;
     padding-block: 40px;
@@ -375,7 +362,6 @@ footer {
 }
 
 .logo2 img {
-    /* margin-top: 5px; */
     height: 70px; 
     width: 200px;
 }
@@ -394,7 +380,6 @@ footer {
 
 
 /* subfooter */
-
 .subfooter {
     background-color: #b9cde4;
     padding: var(--padding-inline-section);
